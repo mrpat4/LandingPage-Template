@@ -1,0 +1,150 @@
+.inline{
+    display: inline;
+}
+body {
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*#top-bg{
+    position: fixed;
+    background: url(bg.jpg) center;
+    background-size: 100%;
+    #dc3545
+}
+*/
+
+#top{
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    margin-top: 75px;
+    margin-bottom: 80px;
+}
+#land{
+    
+    padding-left: 10px!important;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Pics{
+    padding: 0 0 !important;
+    margin: 0 0 !important;
+}
+.picSection:hover{
+    background: white;
+}
+.Pics:hover{
+    opacity: 0.3;
+}
+
+.rowSpace{
+    padding: 35px;
+}
+
+.fluid {
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+}
+
+.row1 , .row3 {
+    background: white;
+    box-shadow: 0px 0px 25px gray;
+    text-shadow: 0px 0px 20px lightgray;
+}
+.row2{
+    background: rgba(255,255,255,0.7);
+    text-shadow: 0px 0px 20px lightgray;
+}
+p{
+    margin: auto;
+    max-width: 80%;
+    padding-top: 20px;
+    font-family:'Open Sans' , sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+h1 {
+     font-family: 'Mali', cursive !important;
+     font-weight: bolder !important;
+}
+
+#responsive{
+    color: white;
+    text-shadow: 0px 0px 15px gray;
+}
+.signUp{
+    background-color:#dc3545;
+    color: white;
+    box-shadow: 0px 0px 25px black ;
+    
+}
+.form{
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer{
+    
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.copyright {
+    background-color: black;
+    color: darkgray;
+    padding: 8px;
+    box-shadow: 0px 0px 10px black ;
+}
+span{
+    padding-left: 5px;
+    font-family:'Open Sans';
+}
+
+.fa-lightbulb{
+    font-size: 55px !important;
+    color: white !important;
+    text-shadow: 0px 0px 6px yellow;
+}
+.fas {
+    padding-top: 0px !important;
+    font-size: 45px;
+    margin-bottom: 6px;
+}
+
+.far{
+    font-size: 14px;
+    color: gray;
+}
+/* Just for Testing */
+.fab {
+    padding: 10px 11px;
+    margin: 5px 9px;
+    font-size: 30px!important;
+    width: 55px;
+    text-align: center !important;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #262626;
+}
+.fab:hover{
+    text-decoration: none;
+    background-color: #262626;
+    color: white;
+    
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube{
+    border: solid;
+}
+
+.fa-youtube{
+    padding-left: 1px;
+    padding-right: 1px;
+}
